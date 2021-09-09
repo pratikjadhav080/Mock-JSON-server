@@ -1,0 +1,116 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "age": "1089890"
+    },
+    {
+      "id": 2,
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "Bob Taylor",
+      "age": 45,
+      "active": false
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "price": 10,
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Hamburger",
+      "age": 7,
+      "active": true
+    },
+    {
+      "name": "Kit-Kat",
+      "price": 6,
+      "active": true,
+      "id": 3
+    },
+    {
+      "name": "Nice",
+      "price": 6,
+      "active": true,
+      "id": 4
+    },
+    {
+      "name": "lol",
+      "price": 6,
+      "active": true,
+      "id": "5"
+    },
+    {
+      "name": "lol",
+      "price": 6,
+      "active": true,
+      "id": "9"
+    },
+    {
+      "name": "prtik",
+      "price": "100",
+      "active": "true",
+      "id": "11"
+    },
+    {
+      "name": "pratik",
+      "price": "400",
+      "active": "false",
+      "id": "12"
+    },
+    {
+      "name": "pratik",
+      "price": "2342",
+      "active": "on",
+      "id": "23"
+    },
+    {
+      "name": "Pratik Raju Jadhav",
+      "price": "123",
+      "active": "on",
+      "id": "34"
+    },
+    {
+      "name": "Pratik Jadhav",
+      "price": "234",
+      "active": "on",
+      "id": "56"
+    },
+    {
+      "name": "Hot chocolate",
+      "price": "599",
+      "active": "true",
+      "id": "22"
+    },
+    {
+      "name": "pratikjadhav080",
+      "price": "433",
+      "active": "true",
+      "id": "21"
+    },
+    {
+      "name": "asdsad",
+      "price": "113",
+      "active": "qe",
+      "id": "18"
+    },
+    {
+      "name": "Pratik Jadhav",
+      "price": "788",
+      "active": "true",
+      "id": "52"
+    },
+    {
+      "name": "pratik",
+      "price": "3423",
+      "active": "true",
+      "id": "37"
+    }
+  ]
+}

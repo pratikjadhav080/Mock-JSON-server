@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Road to backend</h1>
+
+  <input type="text" placeholder="name" id="name">
+  <input type="number" placeholder="id" id="id">
+  <input type="number" placeholder="price" id="price">
+  <input type="boolean" placeholder="active" id="active">
+
+  <button onclick="makeRequest()">Click here</button>
+</body>
+
+<script>
+
+  async function makeRequest() {
+
+
+
+    let name_t = document.getElementById("name").value
+    let id_t = document.getElementById("id").value
+    let price_t = document.getElementById("price").value
+    let active_t = document.getElementById("active").value
+
+
+    if (name_t == "" || id_t == "" || price_t == "" || active_t == null) {
+      return false
+    }
+
+    let data = {
+      name: name_t,
+      price: price_t,
+      active: active_t,
+      id: id_t
+    }
+
+    let response = await fetch("http://localhost:5000/api/products", {
+
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: {
+        "Content-Type": "application/json",
+      }
+
+    })
+
+
+  }
+
+
+  makeRequest()
+</script>
+
+</html>
